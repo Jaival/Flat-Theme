@@ -1,0 +1,30 @@
+{
+    "name": "flat",
+    "displayName": "Flat",
+    "description": "Theme for flat color lovers",
+    "version": "0.0.1",
+    "punlisher":"JaivalSaija",
+    "repository": {
+        "url": "https://github.com/Jaival/Flat-Theme"
+    },
+    "keywords": [
+        "flat theme",
+        "dark theme",
+        "flat"
+    ],
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "flat theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/flat theme-color-theme.json"
+            }
+        ]
+    }
+}
