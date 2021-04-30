@@ -4,6 +4,10 @@
 ## [Unreleased]
 - Based on personal experience/suggestions will make more changes...
 
+## [0.7.2]
+### Added
+- ChangeLog.
+
 ## [0.7.0]
 ### Added
 - Suggest Widget color was changed for better visibility.
