@@ -4,6 +4,10 @@
 ## [Unreleased]
 - Based on personal experience/suggestions will make more changes...
 
+## [0.8.0]
+### Changed
+- Editor Syntax Color.
+
 ## [0.7.2]
 ### Added
 - ChangeLog.
