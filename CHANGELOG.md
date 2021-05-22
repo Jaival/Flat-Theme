@@ -4,6 +4,11 @@
 ## [Unreleased]
 - Based on personal experience/suggestions will make more changes...
 
+## [0.9.0]
+### Changed
+- Editor Syntax Color.
+- Number Syntax Color.
+
 ## [0.8.0]
 ### Changed
 - Editor Syntax Color.
