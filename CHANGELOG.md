@@ -1,8 +1,12 @@
 # Change Log
 
-
 ## [Unreleased]
 - Based on personal experience/suggestions will make more changes...
+
+## [1.0.0]
+### Changed
+- All Syntax Color.
+- Activity And Status Bar Color.
 
 ## [0.9.0]
 ### Changed
