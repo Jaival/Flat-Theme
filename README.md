@@ -1,71 +1,41 @@
-Theme for flat color lovers
+# Flat
 
-## [Unreleased]
+A dark VS Code theme for flat color lovers: a deep teal background with warm, saturated syntax colors.
 
-- Based on personal experience/suggestions will make more changes...
+## Install
 
-## [1.1.0]
+1. Open the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
+2. Search for **Flat** by JaivalSaija and click **Install**.
+3. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run **Preferences: Color Theme**, and pick **flat theme**.
 
-### Added
+Or from the command line:
 
-- Theme Icon.
+```sh
+code --install-extension JaivalSaija.flat
+```
 
-## [1.0.0]
+## Palette
 
-### Changed
+| Role | Color |
+| --- | --- |
+| Background | `#042a2b` |
+| Accent / active tab | `#209c9f` |
+| Status bar | `#daffa3` |
+| Text, types, classes | `#fbf2c0` |
+| Keywords, storage | `#78e3fd` |
+| Variables, tags | `#ff7900` |
+| Functions | `#f4b9b2` |
+| Strings | `#f0587c` |
+| Numbers | `#62bfed` |
+| Property names | `#ffd800` |
+| Comments | `#7f8aa6` |
 
-- All Syntax Color.
-- Activity And Status Bar Color.
+The theme also colors bracket pairs, inlay hints, sticky scroll, inline suggestions, and the terminal to match.
 
-## [0.9.0]
+## Feedback
 
-### Changed
+Found a color that's hard to read in your language? [Open an issue](https://github.com/Jaival/Flat-Theme/issues) with a screenshot and the file type.
 
-- Editor Syntax Color.
-- Number Syntax Color.
+## License
 
-## [0.8.0]
-
-### Changed
-
-- Editor Syntax Color.
-
-## [0.7.2]
-
-### Added
-
-- ChangeLog.
-
-## [0.7.0]
-
-### Added
-
-- Suggest Widget color was changed for better visibility.
-
-## [0.5.0]
-
-### Added
-
-- Made majority of color changes.
-
-### Changed Color
-
-- Syntax Color
-- Merge Conflicts
-- Marker Navigation
-- Suggest Widget
-- And More...
-
-## [0.0.2]
-
-### Added
-
-- Made minor color changes.
-
-## [0.0.1]
-
-- Initial release
-
-### Added
-
-- Basic Color Theme established.
+[MIT](LICENSE)

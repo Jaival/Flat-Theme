@@ -6,6 +6,11 @@
 
 ## [1.2.0]
 
+### Added
+
+- Colors for bracket pairs, inlay hints, sticky scroll, inline suggestions (ghost text) and the command center.
+- Marketplace banner color and a full README.
+
 ### Fixed
 
 - Diff files: added lines are now green and removed lines red (they were reversed).
@@ -20,6 +25,7 @@
 - Strings and comments are brighter for better readability.
 - Default editor text is soft cream instead of bright yellow.
 - Terminal red, blue, magenta and black colors are readable on the teal background.
+- Theme file renamed to `themes/flat-color-theme.json`.
 - Selections, menus, peek view, links and split-editor borders use teal instead of leftover default blues.
 
 ## [1.1.0]

@@ -19,12 +19,16 @@
     "Themes"
   ],
   "icon": "icons/icon.png",
+  "galleryBanner": {
+    "color": "#042a2b",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
         "label": "flat theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/flat theme-color-theme.json"
+        "path": "./themes/flat-color-theme.json"
       }
     ]
   }
