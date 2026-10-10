@@ -4,6 +4,24 @@
 
 - Based on personal experience/suggestions will make more changes...
 
+## [1.2.0]
+
+### Fixed
+
+- Diff files: added lines are now green and removed lines red (they were reversed).
+- Keyboard focus outline is now visible.
+- Buttons, inputs, dropdowns and checkboxes now stand out from the background.
+- Drag-and-drop feedback in lists and the sidebar.
+- Active panel tab is now brighter than inactive tabs.
+- Extension size: the 14 MB animated icon was replaced with a 256×256 PNG.
+
+### Changed
+
+- Strings and comments are brighter for better readability.
+- Default editor text is soft cream instead of bright yellow.
+- Terminal red, blue, magenta and black colors are readable on the teal background.
+- Selections, menus, peek view, links and split-editor borders use teal instead of leftover default blues.
+
 ## [1.1.0]
 
 ### Added

@@ -2,7 +2,7 @@
   "name": "flat",
   "displayName": "Flat",
   "description": "Theme for flat color lovers",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "JaivalSaija",
   "repository": {
     "url": "https://github.com/Jaival/Flat-Theme"
@@ -18,7 +18,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "./icons/flat.gif",
+  "icon": "icons/icon.png",
   "contributes": {
     "themes": [
       {
