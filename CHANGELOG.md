@@ -4,6 +4,21 @@
 
 - Based on personal experience/suggestions will make more changes...
 
+## [1.3.0]
+
+### Added
+
+- Colors for Copilot chat and inline chat, the Source Control graph, test result icons, keybinding labels, banners, and Markdown quote/code blocks.
+- Whole-line backgrounds in side-by-side diffs.
+- Light bulb, scrollbar error/warning/change marks, and status bar error/warning colors.
+- Legacy indent guide colors for VS Code versions before 1.66.
+
+### Changed
+
+- Remaining gray UI colors (line numbers, indent guides, borders, scrollbars, sidebar and menu text) are tinted teal to match the theme.
+- Diff highlights use the theme's green and coral.
+- Line numbers and search placeholder text are easier to read.
+
 ## [1.2.0]
 
 ### Added
