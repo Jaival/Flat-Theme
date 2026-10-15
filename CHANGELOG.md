@@ -4,6 +4,22 @@
 
 - Based on personal experience/suggestions will make more changes...
 
+## [2.0.0]
+
+### Changed
+
+- **Flat Deep is now the main theme**: a darker, grayer teal (`#0b1919`) with slightly softened syntax colors. Existing users are switched to it automatically.
+
+### Added
+
+- Three more variants: **Flat Muted** (original teal, desaturated colors), **Flat Pastel** (lighter teal, pastel colors) and **Flat Mist** (slate, dusty colors).
+- Palette generator: `src/palette.json` + `src/template.json` build every variant with `npm run build`, keeping text at 4.5:1 contrast or better.
+
+### Removed
+
+- The original bright theme is no longer shipped; Flat Muted is the closest match.
+- An unused `variable.constant` semantic color entry.
+
 ## [1.3.0]
 
 ### Added

@@ -1,8 +1,8 @@
 {
   "name": "flat",
   "displayName": "Flat",
-  "description": "Theme for flat color lovers",
-  "version": "1.3.0",
+  "description": "Flat color themes: Deep, Muted, Pastel and Mist",
+  "version": "2.0.0",
   "publisher": "JaivalSaija",
   "repository": {
     "url": "https://github.com/Jaival/Flat-Theme"
@@ -10,7 +10,10 @@
   "keywords": [
     "flat theme",
     "dark theme",
-    "flat"
+    "flat",
+    "teal",
+    "pastel",
+    "muted"
   ],
   "engines": {
     "vscode": "^1.55.0"
@@ -23,12 +26,31 @@
     "color": "#042a2b",
     "theme": "dark"
   },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "flat theme",
+        "id": "flat theme",
+        "label": "Flat Deep",
         "uiTheme": "vs-dark",
-        "path": "./themes/flat-color-theme.json"
+        "path": "./themes/flat-deep-color-theme.json"
+      },
+      {
+        "label": "Flat Muted",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flat-muted-color-theme.json"
+      },
+      {
+        "label": "Flat Pastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flat-pastel-color-theme.json"
+      },
+      {
+        "label": "Flat Mist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flat-mist-color-theme.json"
       }
     ]
   }

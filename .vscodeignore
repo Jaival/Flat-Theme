@@ -3,3 +3,5 @@
 .gitignore
 icons/flat.gif
 icons/flat.png
+src/**
+scripts/**
