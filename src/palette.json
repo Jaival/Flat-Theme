@@ -1,0 +1,20 @@
+{
+	"background": "#042a2b",
+	"surface": "#213636",
+	"input": "#0a3a3b",
+	"border": "#2a5556",
+	"selection": "#13595b",
+	"accent": "#209c9f",
+	"statusBar": "#daffa3",
+	"text": "#fbf2c0",
+	"keyword": "#78e3fd",
+	"function": "#f4b9b2",
+	"string": "#f0587c",
+	"number": "#62bfed",
+	"comment": "#7f8aa6",
+	"variable": "#ff7900",
+	"property": "#ffd800",
+	"green": "#8fc93a",
+	"coral": "#ff6f59",
+	"error": "#f44747"
+}

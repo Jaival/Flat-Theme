@@ -1,71 +1,50 @@
-Theme for flat color lovers
+# Flat
 
-## [Unreleased]
+Dark VS Code themes for flat color lovers: teal backgrounds with warm syntax colors, in four moods.
 
-- Based on personal experience/suggestions will make more changes...
+## Variants
 
-## [1.1.0]
+| Theme | Background | What it's like |
+| --- | --- | --- |
+| **Flat Deep** | `#0b1919` | Dark, grayer teal that cuts glare. The main theme. |
+| **Flat Muted** | `#042a2b` | The original teal with desaturated syntax colors, so nothing glows. |
+| **Flat Pastel** | `#153839` | A lighter teal with soft pastel syntax colors. |
+| **Flat Mist** | `#273131` | Slate with a hint of teal and dusty, warm colors. The calmest. |
 
-### Added
+All syntax colors, line numbers, and file names meet a 4.5:1 contrast ratio against their background. Bracket pairs, inlay hints, sticky scroll, inline suggestions, Copilot chat, the Source Control graph, and the terminal are themed to match.
 
-- Theme Icon.
+## Install
 
-## [1.0.0]
+1. Open the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
+2. Search for **Flat** by JaivalSaija and click **Install**.
+3. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run **Preferences: Color Theme**, and pick one of the Flat variants.
 
-### Changed
+Or from the command line:
 
-- All Syntax Color.
-- Activity And Status Bar Color.
+```sh
+code --install-extension JaivalSaija.flat
+```
 
-## [0.9.0]
+If you used Flat before 2.0, you're switched to Flat Deep automatically.
 
-### Changed
+## Changing colors
 
-- Editor Syntax Color.
-- Number Syntax Color.
+The theme files in `themes/` are generated. Don't edit them directly.
 
-## [0.8.0]
+- `src/palette.json` holds the named base colors (background, accent, keyword, string, and so on).
+- `src/template.json` is the full theme, with `{name}` references into the palette.
+- `scripts/build.mjs` defines each variant as a color transform of the base, and lifts any text color that falls below 4.5:1 contrast.
 
-### Changed
+After editing, rebuild all variants (Node 18 or newer, no dependencies):
 
-- Editor Syntax Color.
+```sh
+npm run build
+```
 
-## [0.7.2]
+## Feedback
 
-### Added
+Found a color that's hard to read in your language? [Open an issue](https://github.com/Jaival/Flat-Theme/issues) with a screenshot, the file type, and which variant you use.
 
-- ChangeLog.
+## License
 
-## [0.7.0]
-
-### Added
-
-- Suggest Widget color was changed for better visibility.
-
-## [0.5.0]
-
-### Added
-
-- Made majority of color changes.
-
-### Changed Color
-
-- Syntax Color
-- Merge Conflicts
-- Marker Navigation
-- Suggest Widget
-- And More...
-
-## [0.0.2]
-
-### Added
-
-- Made minor color changes.
-
-## [0.0.1]
-
-- Initial release
-
-### Added
-
-- Basic Color Theme established.
+[MIT](LICENSE)

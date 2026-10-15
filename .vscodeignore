@@ -1,4 +1,7 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+icons/flat.gif
+icons/flat.png
+src/**
+scripts/**
