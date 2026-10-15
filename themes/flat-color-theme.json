@@ -285,7 +285,7 @@
 		},
 		{
 			"name": "CSS/SCSS/LESS Operators",
-			"scope": "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
+			"scope": "keyword.operator.css,keyword.operator.scss",
 			"settings": {
 				"foreground": "#ffffff"
 			}
@@ -305,13 +305,6 @@
 			}
 		},
 		{
-			"name": "css attribute-name.id",
-			"scope": "support.constant.color.w3c-standard-color-name.css",
-			"settings": {
-				"foreground": "#62bfed"
-			}
-		},
-		{
 			"name": "css property-name",
 			"scope": "support.type.vendored.property-name.css",
 			"settings": {
@@ -320,7 +313,7 @@
 		},
 		{
 			"name": "js/ts module",
-			"scope": "support.module.node,support.type.object.module,support.module.node",
+			"scope": "support.module.node,support.type.object.module",
 			"settings": {
 				"foreground": "#fbf2c0"
 			}
@@ -375,7 +368,7 @@
 		},
 		{
 			"name": "js console function",
-			"scope": "entity.name.function,support.function.console",
+			"scope": "support.function.console",
 			"settings": {
 				"foreground": "#f4b9b2"
 			}
@@ -685,7 +678,7 @@
 		},
 		{
 			"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-			"scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
+			"scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.typeof,keyword.operator.expression.void",
 			"settings": {
 				"foreground": "#78e3fd"
 			}
@@ -935,13 +928,6 @@
 			}
 		},
 		{
-			"name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Link",
-			"scope": "punctuation.definition.metadata.markdown",
-			"settings": {
-				"foreground": "#ff7900"
-			}
-		},
-		{
 			"name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
 			"scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
 			"settings": {
@@ -971,7 +957,7 @@
 		},
 		{
 			"name": "Embedded",
-			"scope": "punctuation.section.embedded, variable.interpolation",
+			"scope": "variable.interpolation",
 			"settings": {
 				"foreground": "#ff7900"
 			}
@@ -1132,7 +1118,7 @@
 		},
 		{
 			"name": "php function-resets",
-			"scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php",
+			"scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php",
 			"settings": {
 				"foreground": "#ffd800"
 			}
@@ -1608,8 +1594,7 @@
 				"support.type.sampler.hlsl",
 				"support.type.object.hlsl",
 				"support.type.object.rw.hlsl",
-				"support.type.fx.hlsl",
-				"support.type.object.hlsl"
+				"support.type.fx.hlsl"
 			],
 			"settings": {
 				"foreground": "#78e3fd"
@@ -1766,7 +1751,6 @@
 		{
 			"name": "Markdown underscore-style headers",
 			"scope": [
-				"entity.name.label.cs",
 				"markup.heading.setext.1.markdown",
 				"markup.heading.setext.2.markdown"
 			],
@@ -1839,6 +1823,27 @@
 			"scope": "markup.italic.markdown",
 			"settings": {
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "shell command names",
+			"scope": "entity.name.command.shell",
+			"settings": {
+				"foreground": "#f4b9b2"
+			}
+		},
+		{
+			"name": "shell variable $ sign",
+			"scope": "punctuation.definition.variable.shell",
+			"settings": {
+				"foreground": "#ff7900"
+			}
+		},
+		{
+			"name": "go import paths",
+			"scope": "entity.name.import.go",
+			"settings": {
+				"foreground": "#f0587c"
 			}
 		}
 	],
